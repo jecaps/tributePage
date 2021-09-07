@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f0efeb;
+  margin: 10px;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+}
+
+#tribute-link {
+  font-weight: bold;
+  color: blue;
+}
+
+#tribute-info {
+  text-align: justify;
+  color: #212529;
+}
+
+#main {
+  background-color: #e5e5e5;
+  padding: 20px;
+  text-align: center;
+}
+
+#img-div {
+  background-color: #eeeeee;
+  text-align: center;
+  font-style: italic;
+  padding: 20px 0px 5px 0px;
+}
+
+img:hover {
+  transform: scale(0.75);
+  transition: 0.3s ease-in-out;
+}
