@@ -1,12 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #f0efeb;
-  margin: 10px;
-}
-
-img {
-  width: 300px;
-  height: 400px;
+  margin: 15px;
 }
 
 #tribute-link {
@@ -17,6 +12,8 @@ img {
 #tribute-info {
   text-align: justify;
   color: #212529;
+  background-color: #e5e5e5;
+  padding: 10px 100px;
 }
 
 #main {
@@ -24,15 +21,29 @@ img {
   padding: 20px;
   text-align: center;
 }
+#quote {
+  font-style: italic;
+}
+
+img {
+  width: 240px;
+  height: 320px;
+  margin-bottom: 40px;
+}
 
 #img-div {
+  position: relative;
   background-color: #eeeeee;
   text-align: center;
-  font-style: italic;
-  padding: 20px 0px 5px 0px;
+  padding: 55px 5px 10px 5px;
 }
 
 img:hover {
-  transform: scale(0.75);
+  transform: scale(1.25);
   transition: 0.3s ease-in-out;
 }
+
+@media screen and (max-width:480px){
+  .body {
+  width: 150px;
+  }
